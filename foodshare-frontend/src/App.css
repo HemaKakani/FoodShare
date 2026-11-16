@@ -1,0 +1,81 @@
+.app-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-header h1 {
+  color: #287a4b;
+  margin-bottom: 8px;
+}
+
+.app-header p {
+  color: #666;
+}
+
+main {
+  display: grid;
+  gap: 25px;
+}
+
+form,
+.food-card {
+  background: white;
+  padding: 20px;
+  border: 1px solid #e2e8e2;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #287a4b;
+  margin-top: 0;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #d1d9d1;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #287a4b;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e603a;
+}
+
+.food-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.food-card h3 {
+  color: #287a4b;
+}
+
+.food-card button {
+  margin: 5px 5px 0 0;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
